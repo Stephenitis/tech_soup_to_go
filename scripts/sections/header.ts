@@ -1,5 +1,4 @@
-# $('./body') {
-#   insert_top("header", class: "_header") {
-#     Move stuff here
-#   }
-# }
+$('./body') {
+  insert_top("header", class: "_header") {
+  }
+}

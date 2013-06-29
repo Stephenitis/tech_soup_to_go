@@ -11,4 +11,3 @@ $("/html") {
 
   @import mappings.ts
 }
-

@@ -7,7 +7,7 @@ match(inferred_content_type()) {
     # Force UTF-8 encoding. If you'd like to auto-detect the encoding,
     # simply remove the "UTF-8" argument.  e.g. html(){ ... }
     html("UTF-8") {
-      
+
       @import html.ts
     }
 
