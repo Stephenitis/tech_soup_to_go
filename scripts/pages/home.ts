@@ -20,15 +20,19 @@ $("./body") {
   insert("div", id: "navMenu") {
     attribute("data-ur-set","tabs")
 
-    $("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-wrapper-item', ' ' )) and (((count(preceding-sibling::*) + 1) = 1) and parent::*)]//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-sub-item-link', ' ' ))]"){
+    $("//*[@id='navMenu']/div[6]/h3/span/span"){
+      move_to("//div[@id='navMenu']")
+      attribute("data-ur-tabs-component", "button")
+      attribute("data-ur-tab-id","one")
+    }
+
+    $("//div[@class='s-fn-wrapper-item']"){
+          move_to("//div[@id='navMenu']")
           attribute("data-ur-tabs-component","content")
-          attribute("data-ur-tabs-id","one")
+          attribute("data-ur-tab-id","one")
       }
 
-    $$(".s-fn-item-link span"){
-      attribute("data-ur-tabs-component", "button")
-      attribute("data-ur-tabs-id","one")
-    }
+
   }
 }
 

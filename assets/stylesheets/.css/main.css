@@ -6,3 +6,6 @@
 /* line 18, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
 ._home .s-fn-wrapper-item {
   display: block; }
+.s-fn-wrapper-item:nth-child(1) .s-fn-sub-item-link {
+  font-size: 14px;
+}
