@@ -1,0 +1,8 @@
+{
+	"host_map": [
+		"$.techsoup.org => www.techsoup.org",
+		"$.techsoup.org => techsoup.org",
+		"$.forums.techsoup.org => forums.techsoup.org",
+		"$.recipes.wiki.techsoup.org => recipes.wiki.techsoup.org"
+	]
+}
