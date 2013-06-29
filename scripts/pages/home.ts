@@ -1,7 +1,9 @@
 $("./body") {
   add_class("_home")
 
-  insert_top("div", class: "content") {
+  $("//header") {
+    insert_before("div", class: "content", id: "mycontent") {
+    }
   }
   $("//*[@id='aspnetForm']/div[4]/div/div/div[3]/div[3]"){
     move_to("/html/body/div[1]")
@@ -15,7 +17,10 @@ $("./body") {
   $("//*[@id='aspnetForm']/div[4]/div/div/div[2]/div[1]/div[2]/section"){
     move_to("/html/body/div[1]")
   }
+
+
 }
+
 
 
 $("//*[@id='aspnetForm']"){
@@ -51,11 +56,8 @@ $("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-wrapper-top', ' '
   remove()
 }
 
-
-
-
-$("./body") {
-  insert_top  ("div", id: "navMenu") {
+$("/html/body/header") {
+  insert("div", id: "navMenu") {
     attributes(data-ur-set: "tabs")
 
     $("//h3[@class='s-fn-title-item']"){
@@ -69,4 +71,16 @@ $("./body") {
       attributes(data-ur-tabs-component: "content", data-ur-tab-id: index())
     }
   }
+}
+
+
+$$(".s-fn-browse-by"){
+  remove()
+}
+$$(".mod-social-network"){
+  remove()
+}
+
+$$(".mod-first-nav"){
+  remove()
 }

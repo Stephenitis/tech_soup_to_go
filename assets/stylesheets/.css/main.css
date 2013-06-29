@@ -7,30 +7,33 @@
   /* line 5, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home .s-fn-list-item {
     display: block; }
-  /* line 10, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
+  /* line 8, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
+  ._home .s-fn-title-item {
+    display: inline-block; }
+  /* line 12, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home .s-fn-wrapper-item {
     display: block; }
-  /* line 16, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
+  /* line 18, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='button'] {
     opacity: 0.5; }
-  /* line 19, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
+  /* line 21, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='button'][data-ur-state='enabled'] {
     opacity: 1.0; }
-  /* line 22, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
+  /* line 24, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='content'] {
     display: none; }
-  /* line 25, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
+  /* line 27, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='content'][data-ur-state='enabled'] {
     display: block; }
-  /* line 32, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
+  /* line 34, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='button'] {
     opacity: 0.5; }
-  /* line 35, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
+  /* line 37, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='button'][data-ur-state='enabled'] {
     opacity: 1.0; }
-  /* line 38, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
+  /* line 40, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='content'] {
     display: none; }
-  /* line 41, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
+  /* line 43, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='content'][data-ur-state='enabled'] {
     display: block; }
