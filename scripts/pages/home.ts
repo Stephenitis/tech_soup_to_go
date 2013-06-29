@@ -16,6 +16,35 @@ $("./body") {
   }
 }
 
+$("./body") {
+  insert("div", id: "navMenu") {
+    attribute("data-ur-set","tabs")
+
+    $("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-wrapper-item', ' ' )) and (((count(preceding-sibling::*) + 1) = 1) and parent::*)]//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-sub-item-link', ' ' ))]"){
+          attribute("data-ur-tabs-component","content")
+          attribute("data-ur-tabs-id","one")
+      }
+
+    $$(".s-fn-item-link span"){
+      attribute("data-ur-tabs-component", "button")
+      attribute("data-ur-tabs-id","one")
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $("//*[@id='aspnetForm']"){
     remove()
 }
