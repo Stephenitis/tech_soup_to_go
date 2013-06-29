@@ -1,5 +1,6 @@
 $("./body") {
   add_class("_home")
+
   insert_top("div", class: "content") {
   }
   $("//*[@id='aspnetForm']/div[4]/div/div/div[3]/div[3]"){
@@ -16,41 +17,9 @@ $("./body") {
   }
 }
 
-$("./body") {
-  insert("div", id: "navMenu") {
-    attribute("data-ur-set","tabs")
-
-    $("//*[@id='navMenu']/div[6]/h3/span/span"){
-      move_to("//div[@id='navMenu']")
-      attribute("data-ur-tabs-component", "button")
-      attribute("data-ur-tab-id","one")
-    }
-
-    $("//div[@class='s-fn-wrapper-item']"){
-          move_to("//div[@id='navMenu']")
-          attribute("data-ur-tabs-component","content")
-          attribute("data-ur-tab-id","one")
-      }
-
-
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 $("//*[@id='aspnetForm']"){
-    remove()
+  remove()
 }
 
 $("//*[(@id = 'ctl00_ContentPlaceHolder_footer_MasterFooter_LinkCategoryList_ctrl3_divFooterItemMenu')]") {
@@ -82,6 +51,22 @@ $("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-wrapper-top', ' '
   remove()
 }
 
-$("//*[@id='aspnetForm']/div[4]/div/div/div[3]/div[3]/nav/div"){
 
+
+
+$("./body") {
+  insert_top  ("div", id: "navMenu") {
+    attributes(data-ur-set: "tabs")
+
+    $("//h3[@class='s-fn-title-item']"){
+      move_to("//div[@id='navMenu']")
+      attributes(data-ur-tabs-component: "button", data-ur-tab-id: index())
+    }
+
+    $("//ul[@class='s-fn-sub-menu-item']"){
+      log("======================sajlfalskfsadasdjasdlkjaslkdjsa666666")
+      move_to("//div[@id='navMenu']")
+      attributes(data-ur-tabs-component: "content", data-ur-tab-id: index())
+    }
+  }
 }
