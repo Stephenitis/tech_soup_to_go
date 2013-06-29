@@ -12,11 +12,11 @@ $("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 'grid-4col', ' ' ))]"){
   remove()
 }
 
-$("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-ms-sub-sect-wrapper', ' ' ))]"){
+$("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-ms-sub-sect-wrapper', ' ' ))]") {
   remove()
 }
 
-$("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 'mod-second-nav', ' ' ))]"){
+$("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 'mod-second-nav', ' ' ))]") {
   remove()
 }
 
@@ -24,10 +24,11 @@ $("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 'bg-shadow-down-medium'
   remove()
 }
 $("
-//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 'bg-footer-extra', ' ' ))]"){
+//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 'bg-footer-extra', ' ' ))]") {
   remove()
 }
-$("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-wrapper-top', ' ' ))]"){
+
+$("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-wrapper-top', ' ' ))]") {
   remove()
 }
 
