@@ -1,5 +1,3 @@
-# Place holder/example file
-
 $("//*[(@id = 'ctl00_ContentPlaceHolder_footer_MasterFooter_LinkCategoryList_ctrl3_divFooterItemMenu')]") {
   remove()
 }
@@ -31,9 +29,3 @@ $("
 $("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-wrapper-top', ' ' ))]") {
   remove()
 }
-
-
-
-
-
-

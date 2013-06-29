@@ -1,1 +1,18 @@
 /tmp
+lib/*.ts
+.rvmrc
+tmp/
+log/
+*.swp
+.sass-cache
+.DS_Store
+config/default.vcl
+JENKINS
+BUILD_VERSION
+*~
+project.gemspec
+assets/javascript/.remote/
+assets/javascript/main.js
+assets/javascript/host_map.js
+assets/stylesheets/.css/*
+>>>>>>> cc14a122604fb94d342f88003995e6defc4b05d0
