@@ -143,3 +143,12 @@ select {
 /* line 129, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
 .ext-mod-simple-product--simple-listing.fn-add-margin-left {
   margin-left: 0; }
+
+/* line 133, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+.ext-mod-simple-box--without-title-border select {
+  border: 1px solid white;
+  background-color: #c0392b;
+  color: white;
+  width: 100%;
+  font-size: 2em;
+  line-height: 2em; }

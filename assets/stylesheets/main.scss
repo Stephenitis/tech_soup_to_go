@@ -129,3 +129,12 @@ body{
 .ext-mod-simple-product--simple-listing.fn-add-margin-left {
 margin-left:0;
 }
+
+.ext-mod-simple-box--without-title-border select {
+  border: 1px solid white;
+  background-color: #c0392b;
+  color: white;
+  width: 100%;
+  font-size: 2em;
+  line-height: 2em;
+}
