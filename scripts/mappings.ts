@@ -24,7 +24,7 @@ match($status) {
         @import pages/home.ts
       }
 
-      with(/.*.org.(Login|login)/){
+      with(/.*(Login|login)/){
         log("--> Importing LOGIN pages/login.ts in mappings.ts")
         @import pages/login.ts
       }
