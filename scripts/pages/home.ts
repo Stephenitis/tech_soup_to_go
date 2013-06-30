@@ -76,7 +76,6 @@ $("/html/body/header") {
   }
 }
 
-
 $$(".s-fn-browse-by"){
   remove()
 }

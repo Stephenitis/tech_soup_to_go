@@ -12,14 +12,14 @@
 @import "pages/_home";
 
 body{
-  // overflow: scroll !important;
-  overflow-y: scroll !important; /* has to be scroll, not auto */
+  -ms-overflow-y: scroll !important;
+  overflow-y: scroll !important;
   -webkit-overflow-scrolling: touch;
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   font-family: 'Lato', sans-serif !important;
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 .s-fn-wrapper-item{
   display: block;
@@ -79,31 +79,30 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   min-width: 48%;
   max-width: 48%;
 }
-
-
-  .s-sp-image-container{
-    width:49%;
-    max-width:250px;
-    .s-sp-image{
-      width:100%;
-    }
-  }
-
-  .s-sp-content-wrapper{
-    width:75% !important;
-    // max-width:250px;
-    min-height:100px;
+.s-sp-image-container{
+  width:29%;
   img {
-    min-height: 25%
+    width:100% !important;
   }
-   .s-sp-content, .s-sp-add-to-cart{
+}
+.s-sp-content-wrapper{
+  width:69% !important;
+
+  .s-sp-content{
+    padding:7px;
     font-size: 2em;
-    line-height: 0.9em;
-    }
-    .s-sp-content-title a{
-    font-size: 2.5em;
-    color:white;
-    line-height: 0.9em;
+    line-height: 1.1em;
+  }
+  .s-sp-add-to-cart{
+    font-size: 4em;
+    line-height: 2em;
+  }
+  .s-sp-content-title a{
+      // text-decoration: underline;
+      font-style: oblique;
+      font-size: 2.5em;
+      color:white;
+      line-height: 0.9em;
     }
   }
   #ctl00_PlaceHolderMain_Editmodepanel2_ProductsTasksList_CategoryAndSubCategorySelector{
@@ -111,34 +110,44 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   select{
     display:block;
+    background-color:#2980b9 !important;
+    -webkit-appearance: none;
     width:100%;
-    max-width: 90%;
-    height:40px;
+    max-width: 80%;
+    margin:0 auto;
+    height:60px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 0px !important;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 300 !important;
+    border: 1px solid white;
+    color: white;
+    font-size: 2.5em;
+    min-width: 400px;
   }
+
+// styles the browse more products
+#ctl00_PlaceHolderMain_Editmodepanel2_ProductListingTitle span{
+  display:none;
+}
 .s-sp-add-to-cart-button{
   display: none;
 }
 .ext-mod-simple-product--simple-listing.fn-add-margin-left {
-margin-left:0;
+
 }
 .mod-simple-product {
+  margin-left:0;
   background-color:#c0392b;
   color:white;
   display:block;
   width:100%;
   text-align:center;
+  padding:5px;
+  min-width: 640px;
 }
 .s-sp-fixed-height-container{
-  // background-color: #3498db;
   padding:5px;
-}
-.ext-mod-simple-box--without-title-border select {
-  border: 1px solid white;
-  background-color: #c0392b;
-  color: white;
-  width: 100%;
-  font-size: 2em;
-  line-height: 2em;
 }
 ._header {
   text-align: center;

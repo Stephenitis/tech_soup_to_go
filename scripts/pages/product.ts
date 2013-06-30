@@ -23,6 +23,9 @@ $$("#ctl00_PlaceHolderMain_Editmodepanel2_ProductListingDiv"){
   move_to("//*[@id='mycontent']")
 }
 
+$$(".fn-gap-small"){
+  remove()
+}
 $$(".mod-logo-techsoup"){
   remove()
 }
