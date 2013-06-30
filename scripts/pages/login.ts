@@ -18,9 +18,13 @@ $("./body") {
     move_to("/html/body/div[1]")
   }
 }
+$$(".ext-mod-simple-form--login"){
+  move_to("//*[@id='mycontent']")
+}
 
-
-
+$$(".mod-simple-box"){
+  move_to("//*[@id='mycontent']")
+}
 # $("//*[@id='aspnetForm']"){
 #   remove()
 # }

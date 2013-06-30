@@ -22,10 +22,9 @@ $$("#ctl00_PlaceHolderMain_Editmodepanel2_ProductListingDiv"){
   move_to("//*[@id='mycontent']")
 }
 
-
-# $("//*[@id='aspnetForm']"){
-#   remove()
-# }
+$("//*[@id='aspnetForm']"){
+  remove()
+}
 
 $("//*[(@id = 'ctl00_ContentPlaceHolder_footer_MasterFooter_LinkCategoryList_ctrl3_divFooterItemMenu')]") {
   remove()
