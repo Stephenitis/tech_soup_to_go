@@ -133,11 +133,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .s-sp-add-to-cart-button{
   display: none;
 }
-.ext-mod-simple-product--simple-listing.fn-add-margin-left {
-
-}
 .mod-simple-product {
-  margin-left:0;
+  margin-left:0 !important;
   background-color:#c0392b;
   color:white;
   display:block;
@@ -146,9 +143,23 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding:5px;
   min-width: 640px;
 }
+.js-products-listing{
+  text-align: left;
+}
 .s-sp-fixed-height-container{
   padding:5px;
 }
 ._header {
   text-align: center;
+}
+footer {
+  text-align: center;
+
+  img{
+    width:200px;
+  }
+
+  span{
+    display:none;
+  }
 }

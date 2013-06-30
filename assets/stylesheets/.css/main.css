@@ -154,10 +154,9 @@ select {
 .s-sp-add-to-cart-button {
   display: none; }
 
-
-/* line 139, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 136, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .mod-simple-product {
-  margin-left: 0;
+  margin-left: 0 !important;
   background-color: #c0392b;
   color: white;
   display: block;
@@ -166,6 +165,10 @@ select {
   padding: 5px;
   min-width: 640px; }
 
+/* line 146, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+.js-products-listing {
+  text-align: left; }
+
 /* line 149, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-sp-fixed-height-container {
   padding: 5px; }
@@ -173,3 +176,10 @@ select {
 /* line 152, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 ._header {
   text-align: center; }
+
+/* line 156, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+footer img {
+  width: 200px; }
+/* line 159, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+footer span {
+  display: none; }
