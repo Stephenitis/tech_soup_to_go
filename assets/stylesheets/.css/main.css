@@ -108,39 +108,41 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* line 92, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-sp-content-wrapper {
-  width: 50% !important;
-  max-width: 250px;
+  width: 75% !important;
   min-height: 100px; }
-  /* line 97, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+  /* line 96, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+  .s-sp-content-wrapper img {
+    min-height: 25%; }
+  /* line 99, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
   .s-sp-content-wrapper .s-sp-content, .s-sp-content-wrapper .s-sp-add-to-cart {
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 0.9em; }
-  /* line 101, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+  /* line 103, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
   .s-sp-content-wrapper .s-sp-content-title a {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: white;
     line-height: 0.9em; }
 
-/* line 107, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 109, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 #ctl00_PlaceHolderMain_Editmodepanel2_ProductsTasksList_CategoryAndSubCategorySelector {
   width: 100%; }
 
-/* line 110, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 112, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 select {
   display: block;
   width: 100%;
   max-width: 90%;
   height: 40px; }
 
-/* line 116, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 118, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-sp-add-to-cart-button {
   display: none; }
 
-/* line 119, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 121, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .ext-mod-simple-product--simple-listing.fn-add-margin-left {
   margin-left: 0; }
 
-/* line 122, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 124, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .mod-simple-product {
   background-color: #c0392b;
   color: white;
@@ -148,11 +150,11 @@ select {
   width: 100%;
   text-align: center; }
 
-/* line 129, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 131, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-sp-fixed-height-container {
   padding: 5px; }
 
-/* line 133, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 135, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .ext-mod-simple-box--without-title-border select {
   border: 1px solid white;
   background-color: #c0392b;
@@ -161,6 +163,6 @@ select {
   font-size: 2em;
   line-height: 2em; }
 
-/* line 141, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 143, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 ._header {
   text-align: center; }
