@@ -10,3 +10,54 @@
 
 // Pages
 @import "pages/_home";
+
+body{
+  overflow: scroll !important;
+}
+.s-fn-title-item{
+  display: block;
+  margin: 0 auto;
+}
+
+.s-fn-wrapper-item{
+  display: block;
+  margin: 0 auto;
+}
+.s-fn-sub-menu-item li{
+  // width:100%;
+  display:inline-block;
+  text-align:center;
+  padding:10px;
+  border-radius: 45px;
+}
+.s-fn-sub-menu-item li a{
+  font-size: 2em;
+  line-height: 2em;
+  padding:10px;
+  margin: 5px;
+  background-color: #97679d;
+  color: white;
+}
+.s-fn-sub-menu-item li a:hover{
+  font-size: 2em;
+  line-height: 2em;
+  padding:10px;
+  margin: 5px;
+  background-color: #cea9d3;
+  color: white;
+  box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+}
+.mod-logo-techsoup{
+  display:block;
+  margin: 0 auto;
+}
+#navMenu{
+  // display: block;
+  // width: 300px;
+  margin: 0 auto;
+}
+
+.s-fn-item-link span {
+  font-size: 2em;
+  margin: 5px;
+}

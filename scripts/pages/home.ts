@@ -23,7 +23,6 @@ $("./body") {
 }
 
 
-
 $("//*[@id='aspnetForm']"){
   remove()
 }
