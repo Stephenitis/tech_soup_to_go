@@ -127,7 +127,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     -webkit-appearance: none;
     width:100%;
     max-width: 80%;
-    margin:0 auto;
+    margin:0 auto !important;
     height:60px;
     padding: 10px 10px 10px 30px;
     border-radius: 0px !important;
@@ -141,7 +141,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 // styles the browse more products
 #ctl00_PlaceHolderMain_Editmodepanel2_ProductListingTitle span{
-  // display:none;
+  display:none;
 }
 .s-sp-add-to-cart-button{
   display: none;
@@ -166,6 +166,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   text-align: center;
 }
 footer {
+  display: none;
   text-align: center;
 
   img{

@@ -152,7 +152,7 @@ select {
   -webkit-appearance: none;
   width: 100%;
   max-width: 80%;
-  margin: 0 auto;
+  margin: 0 auto !important;
   height: 60px;
   padding: 10px 10px 10px 30px;
   border-radius: 0px !important;
@@ -163,6 +163,9 @@ select {
   font-size: 2.5em;
   min-width: 400px; }
 
+/* line 143, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+#ctl00_PlaceHolderMain_Editmodepanel2_ProductListingTitle span {
+  display: none; }
 
 /* line 146, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-sp-add-to-cart-button {
@@ -193,10 +196,11 @@ select {
 
 /* line 168, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 footer {
+  display: none;
   text-align: center; }
-  /* line 171, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+  /* line 172, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
   footer img {
     width: 200px; }
-  /* line 175, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+  /* line 176, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
   footer span {
     display: none; }
