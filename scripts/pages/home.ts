@@ -30,6 +30,9 @@ $("//*[@id='aspnetForm']"){
   remove()
 }
 
+$(".mod-login-bar fn-line-align-middle"){
+  remove()
+}
 $("//*[(@id = 'ctl00_ContentPlaceHolder_footer_MasterFooter_LinkCategoryList_ctrl3_divFooterItemMenu')]") {
   remove()
 }
