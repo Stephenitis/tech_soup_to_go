@@ -1,6 +1,9 @@
 $('./body') {
   insert_top("header", class: "_header") {
-    insert("img", src:asset("images/Techsouplogo2.jpg"))
+    insert("a", href: "/"){
+          insert("img", src:asset("images/Techsouplogo2.jpg"))
+    }
+
   }
 }
 
