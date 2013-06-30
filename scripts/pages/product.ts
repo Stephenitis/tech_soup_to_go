@@ -23,6 +23,12 @@ $$("#ctl00_PlaceHolderMain_Editmodepanel2_ProductListingDiv"){
   move_to("//*[@id='mycontent']")
 }
 
+$("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-sp-content', ' ' )) and (((count(preceding-sibling::*) + 1) = 2) and parent::*)]"){
+  remove()
+}
+$("//dt"){
+  remove()
+}
 $$(".fn-gap-small"){
   remove()
 }
@@ -69,10 +75,8 @@ $("/html/body/header") {
       move_to("//div[@id='navMenu']")
       attributes(data-ur-tabs-component: "button", data-ur-tab-id: index())
     }
-
     $("//ul[@class='s-fn-sub-menu-item']"){
-      log("======================sajlfalskfsadasdjasdlkjaslkdjsa666666")
-      move_to("//div[@id='navMenu']")
+      move_to("//*[(@id = 'navMenu')]//*[(((count(preceding-sibling::*) + 1) = " +index() +") and parent::*)]//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-item-link', ' ' ))]//span")
       attributes(data-ur-tabs-component: "content", data-ur-tab-id: index())
     }
   }

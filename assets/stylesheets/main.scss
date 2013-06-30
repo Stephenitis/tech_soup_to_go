@@ -55,8 +55,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 #navMenu{
-  // display: block;
-  // width: 300px;
   margin: 0 auto;
 }
 
@@ -69,7 +67,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   color: black;
   margin: 2px auto;
 }
-
+.s-fn-item-link span:hover {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5em;
+  line-height: 2em;
+  background-color: #31c6a9;
+  color: black;
+  margin: 2px auto;
+}
 // navigation menu
 #navMenu img{
   display: none;
@@ -89,20 +96,26 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   width:69% !important;
 
   .s-sp-content{
-    padding:7px;
-    font-size: 2em;
+    padding:20px 7px 7px 7px;
+    font-size: 3.5em;
     line-height: 1.1em;
   }
-  .s-sp-add-to-cart{
-    font-size: 4em;
+  .fn-line-align , dd, dt {
+    color:yellow;
+    font-size: 2em !important;
     line-height: 2em;
   }
+  .s-sp-add-to-cart{
+  text-align: center;
+}
+
   .s-sp-content-title a{
-      // text-decoration: underline;
-      font-style: oblique;
-      font-size: 2.5em;
+      font-size: 5em;
+      font-weight: bold;
       color:white;
-      line-height: 0.9em;
+      line-height: 1em;
+      margin: 0 0 50px 0;
+      // border-bottom: 10px solid white;
     }
   }
   #ctl00_PlaceHolderMain_Editmodepanel2_ProductsTasksList_CategoryAndSubCategorySelector{
@@ -128,14 +141,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 // styles the browse more products
 #ctl00_PlaceHolderMain_Editmodepanel2_ProductListingTitle span{
-  display:none;
+  // display:none;
 }
 .s-sp-add-to-cart-button{
   display: none;
 }
 .mod-simple-product {
   margin-left:0 !important;
-  background-color:#c0392b;
+  background-color:#2c3e50;
   color:white;
   display:block;
   width:100%;
