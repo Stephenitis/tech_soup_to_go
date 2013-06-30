@@ -26,30 +26,24 @@ body{
   margin: 0 auto;
 }
 .s-fn-sub-menu-item li{
-  display:inline-block;
+  display: block;
   text-align:center;
-  padding:10px;
+  padding: 2px;
   border-radius: 45px;
 }
 .s-fn-sub-menu-item li a{
-  font-size: 4em;
+  font-size: 3.5em;
   line-height: 2em;
-  padding:10px;
-  margin: 5px;
-  background-color: #97679d;
+  background-color: #c0392b;
   color: white;
-  float:left;
+  display: block;
 }
 
 .s-fn-sub-menu-item li a:hover{
-  font-size: 4em;
+  font-size: 3.5em;
   line-height: 2em;
-  padding:10px;
-  margin: 5px;
-  background-color: #cea9d3;
+  background-color: #81241d;
   color: white;
-  box-shadow: 0px 0px 25px 5px rgba(255, 255, 190, .75);
-    float:left;
 }
 
 .mod-logo-techsoup img{
@@ -71,12 +65,9 @@ body{
   text-align: center; 
   font-size: 5em;
   line-height: 2em;
-  padding:5px;
-  margin: 5px;
-  background-color: #61cc6c;
+  background-color: #16a085;
   color: black;
   margin: 2px auto;
-  // float:left;
 }
 
 // navigation menu
