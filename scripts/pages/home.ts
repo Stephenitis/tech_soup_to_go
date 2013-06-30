@@ -20,6 +20,9 @@ $("./body") {
   $("//*[@id='aspnetForm']/div[4]/div/div/div[2]/div[1]/div[2]/section"){
     move_to("/html/body/div[1]")
   }
+  $("//*[@id='mycontent']/section/a"){
+    move_to("/html/body/header")
+  }
 }
 
 
