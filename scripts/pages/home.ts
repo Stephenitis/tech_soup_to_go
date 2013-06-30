@@ -5,9 +5,6 @@ $("./body") {
     insert_after("div", class: "content", id: "mycontent") {
     }
   }
-  $$(".mod-logo-techsoup"){
-    move_to("/html/body/header")
-  }
   $("//*[@id='aspnetForm']/div[4]/div/div/div[3]/div[3]"){
     move_to("/html/body/div[1]")
   }
@@ -25,7 +22,9 @@ $("./body") {
   }
 }
 
-
+$$(".mod-logo-techsoup"){
+  remove()
+}
 $("//*[@id='aspnetForm']"){
   remove()
 }

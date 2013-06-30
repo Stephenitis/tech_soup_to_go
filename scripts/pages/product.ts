@@ -5,9 +5,6 @@ $("./body") {
     insert_after("div", class: "content", id: "mycontent") {
     }
   }
-  $$(".mod-logo-techsoup"){
-    move_to("/html/body/header")
-  }
   $("//*[@id='aspnetForm']/div[4]/div/div/div[3]/div[3]"){
     move_to("/html/body/div[1]")
   }
@@ -26,10 +23,12 @@ $$("#ctl00_PlaceHolderMain_Editmodepanel2_ProductListingDiv"){
   move_to("//*[@id='mycontent']")
 }
 
+$$(".mod-logo-techsoup"){
+  remove()
+}
 $("//*[@id='aspnetForm']"){
   remove()
 }
-
 $("//*[(@id = 'ctl00_ContentPlaceHolder_footer_MasterFooter_LinkCategoryList_ctrl3_divFooterItemMenu')]") {
   remove()
 }
