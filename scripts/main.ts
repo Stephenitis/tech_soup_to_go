@@ -2,6 +2,9 @@
 
 match(inferred_content_type()) {
   with(/html/) {
+
+    replace("https://www.techsoup.org:443/Login.aspx", "https://"+$host+":443/Login.aspx")
+
     replace(/fb:/, "fbn_") # Rewrite the xmlns facebook nodes before the html parser clobbers them
 
     # Force UTF-8 encoding. If you'd like to auto-detect the encoding,

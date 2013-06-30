@@ -18,12 +18,20 @@ match($status) {
     log("--> STATUS: 200")
 
     match($path) {
+
       with(/^\/$|^\/\?/) {
         log("--> Importing pages/home.ts in mappings.ts")
         @import pages/home.ts
       }
+
+      with(/.*[Login|login]/){
+        log("--> Importing LOGIN pages/login.ts in mappings.ts")
+        @import pages/login.ts
+      }
+
       else() {
-        log("--> No page match in mappings.ts")
+        log("--> IMPORTING PRODUCT MAPPINGS pages/product.ts in mappings.ts")
+        @import pages/product.ts
       }
     }
   }
