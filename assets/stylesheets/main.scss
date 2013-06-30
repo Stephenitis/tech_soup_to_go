@@ -46,9 +46,11 @@ body{
     float:left;
 }
 
-.mod-logo-techsoup{
+.mod-logo-techsoup img{
   display:block;
   margin: 0 auto;
+  min-width: 500px;
+  margin-bottom: 20px;
 }
 
 
@@ -59,7 +61,7 @@ body{
 }
 
 .s-fn-item-link span {
-  font-size: 6em;
+  font-size: 5em;
   line-height: 2em;
   padding:10px;
   margin: 5px;
