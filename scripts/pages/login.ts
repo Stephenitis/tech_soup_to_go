@@ -62,6 +62,13 @@ $("//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-wrapper-top', ' '
   remove()
 }
 
+$("//*[@id='mycontent']/section"){
+  remove()
+}
+
+$("//*[@id='mycontent']/div/div"){
+  remove()
+}
 $("/html/body/header") {
   insert("div", id: "navMenu") {
     attributes(data-ur-set: "tabs")
@@ -78,7 +85,6 @@ $("/html/body/header") {
     }
   }
 }
-
 
 $$(".s-fn-browse-by"){
   remove()
