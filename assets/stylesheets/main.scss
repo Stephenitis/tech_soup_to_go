@@ -62,7 +62,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .s-fn-item-link span {
   display: block;
-  text-align: center; 
+  text-align: center;
   font-size: 5em;
   line-height: 2em;
   background-color: #16a085;
@@ -78,13 +78,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   display: inline;
   min-width: 48%;
   max-width: 48%;
-  // margin: 0 auto;
 }
 
-.mod-simple-product {
-  display:block;
-  width:100%;
-}
 
   .s-sp-image-container{
     width:49%;
@@ -95,15 +90,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
 
   .s-sp-content-wrapper{
-    // background-color:yellow;
     width:50% !important;
     max-width:250px;
     min-height:100px;
-
-    // .s-sp-fixed-height-container .s-sp-content-title{
-    // font-size: 1.5em;
-    // line-height: 1.1em;
-    // }
 
    .s-sp-content, .s-sp-add-to-cart{
     font-size: 1.5em;
@@ -111,6 +100,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
     .s-sp-content-title a{
     font-size: 1.5em;
+    color:white;
     line-height: 0.9em;
     }
   }
@@ -129,7 +119,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .ext-mod-simple-product--simple-listing.fn-add-margin-left {
 margin-left:0;
 }
-
+.mod-simple-product {
+  background-color:#c0392b;
+  color:white;
+  display:block;
+  width:100%;
+  text-align:center;
+}
+.s-sp-fixed-height-container{
+  // background-color: #3498db;
+  padding:5px;
+}
 .ext-mod-simple-box--without-title-border select {
   border: 1px solid white;
   background-color: #c0392b;
@@ -140,4 +140,4 @@ margin-left:0;
 }
 ._header {
   text-align: center;
-} 
+}
