@@ -2,7 +2,7 @@ $("./body") {
   add_class("_home")
 
   $("//header") {
-    insert_before("div", class: "content", id: "mycontent") {
+    insert_after("div", class: "content", id: "mycontent") {
     }
   }
   $("//*[@id='aspnetForm']/div[4]/div/div/div[3]/div[3]"){

@@ -24,11 +24,10 @@ match($status) {
         @import pages/home.ts
       }
 
-      with(/.*[Login|login]/){
+      with(/.*.org.(Login|login)/){
         log("--> Importing LOGIN pages/login.ts in mappings.ts")
         @import pages/login.ts
       }
-
       else() {
         log("--> IMPORTING PRODUCT MAPPINGS pages/product.ts in mappings.ts")
         @import pages/product.ts
