@@ -61,13 +61,15 @@ body{
 }
 
 .s-fn-item-link span {
+  display: block;
+  text-align: center; 
   font-size: 5em;
   line-height: 2em;
-  padding:10px;
+  padding:5px;
   margin: 5px;
   background-color: #61cc6c;
   color: black;
-  margin: 0 auto;
+  margin: 2px auto;
   // float:left;
 }
 
