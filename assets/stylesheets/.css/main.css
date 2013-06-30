@@ -92,8 +92,8 @@ s-fn-item-link {
   margin: 5px;
   background-color: #61cc6c;
   color: black;
-  float: left; }
+  margin: 0 auto; }
 
-/* line 73, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 74, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 #navMenu img {
   display: none; }
