@@ -2,7 +2,7 @@ $("./body") {
   add_class("_home")
 
   $("//header") {
-    insert_before("div", class: "content", id: "mycontent") {
+    insert_after("div", class: "content", id: "mycontent") {
     }
   }
   $("//*[@id='aspnetForm']/div[4]/div/div/div[3]/div[3]"){
@@ -25,9 +25,13 @@ $$(".ext-mod-simple-form--login"){
 $$(".mod-simple-box"){
   move_to("//*[@id='mycontent']")
 }
-# $("//*[@id='aspnetForm']"){
-#   remove()
-# }
+$$(".s-snl-form"){
+  move_to("//*[@id='mycontent']")
+}
+
+$("//*[@id='aspnetForm']"){
+  remove()
+}
 
 $("//*[(@id = 'ctl00_ContentPlaceHolder_footer_MasterFooter_LinkCategoryList_ctrl3_divFooterItemMenu')]") {
   remove()
