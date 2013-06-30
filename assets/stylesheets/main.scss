@@ -12,7 +12,9 @@
 @import "pages/_home";
 
 body{
-  overflow: scroll !important;
+  // overflow: scroll !important;
+  overflow-y: scroll !important; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .s-fn-wrapper-item{
