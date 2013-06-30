@@ -57,11 +57,9 @@ body{
   // width: 300px;
   margin: 0 auto;
 }
-s-fn-item-link{
-  width:20%
-}
+
 .s-fn-item-link span {
-  font-size: 3em;
+  font-size: 6em;
   line-height: 2em;
   padding:10px;
   margin: 5px;
@@ -76,7 +74,9 @@ s-fn-item-link{
   display: none;
 }
 .s-fn-title-item{
-  display: inline-block;
+  display: inline;
+  min-width: 48%;
+  max-width: 48%;
   // margin: 0 auto;
 }
 

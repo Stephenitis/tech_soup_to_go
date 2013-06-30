@@ -75,13 +75,9 @@ body {
 #navMenu {
   margin: 0 auto; }
 
-/* line 60, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
-s-fn-item-link {
-  width: 20%; }
-
-/* line 63, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 61, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-fn-item-link span {
-  font-size: 3em;
+  font-size: 6em;
   line-height: 2em;
   padding: 10px;
   margin: 5px;
@@ -89,13 +85,15 @@ s-fn-item-link {
   color: black;
   margin: 0 auto; }
 
-/* line 75, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 73, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 #navMenu img {
   display: none; }
 
-/* line 78, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
+/* line 76, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-fn-title-item {
-  display: inline-block; }
+  display: inline;
+  min-width: 48%;
+  max-width: 48%; }
 
 /* line 83, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .mod-simple-product {
