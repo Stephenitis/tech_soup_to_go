@@ -1,58 +1,58 @@
 
 
-/* line 3, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/pages/_home.scss */
+/* line 3, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
 ._home {
   /* Required SCSS Styling */
   /* Required CSS Styling */ }
-  /* line 18, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/pages/_home.scss */
+  /* line 18, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='button'] {
     opacity: 0.5; }
-  /* line 21, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/pages/_home.scss */
+  /* line 21, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='button'][data-ur-state='enabled'] {
     opacity: 1.0; }
-  /* line 24, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/pages/_home.scss */
+  /* line 24, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='content'] {
     display: none; }
-  /* line 27, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/pages/_home.scss */
+  /* line 27, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='content'][data-ur-state='enabled'] {
     display: block; }
-  /* line 34, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/pages/_home.scss */
+  /* line 34, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='button'] {
     opacity: 0.5; }
-  /* line 37, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/pages/_home.scss */
+  /* line 37, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='button'][data-ur-state='enabled'] {
     opacity: 1.0; }
-  /* line 40, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/pages/_home.scss */
+  /* line 40, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='content'] {
     display: none; }
-  /* line 43, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/pages/_home.scss */
+  /* line 43, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/pages/_home.scss */
   ._home *[data-ur-set="tabs"] *[data-ur-tabs-component='content'][data-ur-state='enabled'] {
     display: block; }
 
-/* line 14, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 14, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 body {
   overflow-y: scroll !important;
   /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch; }
 
-/* line 20, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 20, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 * {
   font-family: 'Lato';
   font-size: 300; }
 
-/* line 24, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 24, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-fn-wrapper-item {
   display: block;
   margin: 0 auto; }
 
-/* line 28, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 28, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-fn-sub-menu-item li {
   display: block;
   text-align: center;
   padding: 2px;
   border-radius: 45px; }
 
-/* line 34, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 34, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-fn-sub-menu-item li a {
   font-size: 3.5em;
   line-height: 2em;
@@ -60,25 +60,25 @@ body {
   color: white;
   display: block; }
 
-/* line 42, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 42, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-fn-sub-menu-item li a:hover {
   font-size: 3.5em;
   line-height: 2em;
   background-color: #81241d;
   color: white; }
 
-/* line 49, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 49, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .mod-logo-techsoup img {
   display: block;
   margin: 0 auto;
   min-width: 500px;
   margin-bottom: 20px; }
 
-/* line 57, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 57, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 #navMenu {
   margin: 0 auto; }
 
-/* line 63, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 63, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-fn-item-link span {
   display: block;
   text-align: center;
@@ -88,58 +88,58 @@ body {
   color: black;
   margin: 2px auto; }
 
-/* line 74, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 74, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 #navMenu img {
   display: none; }
 
-/* line 77, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 77, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-fn-title-item {
   display: inline;
   min-width: 48%;
   max-width: 48%; }
 
-/* line 84, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 84, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .mod-simple-product {
   display: block;
   width: 100%; }
 
-/* line 89, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 89, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-sp-image-container {
   width: 49%;
   max-width: 250px; }
-  /* line 92, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+  /* line 92, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
   .s-sp-image-container .s-sp-image {
     width: 100%; }
 
-/* line 97, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 97, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-sp-content-wrapper {
   width: 50% !important;
   max-width: 250px;
   min-height: 100px; }
-  /* line 108, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+  /* line 108, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
   .s-sp-content-wrapper .s-sp-content, .s-sp-content-wrapper .s-sp-add-to-cart {
     font-size: 1.5em;
     line-height: 0.9em; }
-  /* line 112, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+  /* line 112, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
   .s-sp-content-wrapper .s-sp-content-title a {
     font-size: 1.5em;
     line-height: 0.9em; }
 
-/* line 117, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 117, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 #ctl00_PlaceHolderMain_Editmodepanel2_ProductsTasksList_CategoryAndSubCategorySelector {
   width: 100%; }
 
-/* line 120, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 120, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 select {
   display: block;
   width: 100%;
   max-width: 90%;
   height: 40px; }
 
-/* line 126, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 126, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .s-sp-add-to-cart-button {
   display: none; }
 
-/* line 129, /Users/stephanethomas/Documents/05-Coding/Projects/tech_soup_to_go/assets/stylesheets/main.scss */
+/* line 129, /Users/Jupitor/Desktop/techsoup/assets/stylesheets/main.scss */
 .ext-mod-simple-product--simple-listing.fn-add-margin-left {
   margin-left: 0; }

@@ -71,7 +71,6 @@ $("/html/body/header") {
       attributes(data-ur-tabs-component: "button", data-ur-tab-id: index())
     }
     $("//ul[@class='s-fn-sub-menu-item']"){
-      #//*[(@id = "navMenu")]//*[(((count(preceding-sibling::*) + 1) = 1) and parent::*)]//*[contains(concat( " ", @class, " " ), concat( " ", "s-fn-item-link", " " ))]//span
       move_to("//*[(@id = 'navMenu')]//*[(((count(preceding-sibling::*) + 1) = " +index() +") and parent::*)]//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 's-fn-item-link', ' ' ))]//span")
       attributes(data-ur-tabs-component: "content", data-ur-tab-id: index())
     }
