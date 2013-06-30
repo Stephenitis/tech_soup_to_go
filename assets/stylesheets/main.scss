@@ -14,17 +14,12 @@
 body{
   overflow: scroll !important;
 }
-.s-fn-title-item{
-  display: block;
-  margin: 0 auto;
-}
 
 .s-fn-wrapper-item{
   display: block;
   margin: 0 auto;
 }
 .s-fn-sub-menu-item li{
-  // width:100%;
   display:inline-block;
   text-align:center;
   padding:10px;
@@ -39,6 +34,7 @@ body{
   color: white;
   float:left;
 }
+
 .s-fn-sub-menu-item li a:hover{
   font-size: 4em;
   line-height: 2em;
@@ -49,10 +45,13 @@ body{
   box-shadow: 0px 0px 25px 5px rgba(255, 255, 190, .75);
     float:left;
 }
+
 .mod-logo-techsoup{
   display:block;
   margin: 0 auto;
 }
+
+
 #navMenu{
   // display: block;
   // width: 300px;
@@ -71,6 +70,61 @@ s-fn-item-link{
   margin: 0 auto;
   // float:left;
 }
+
+// navigation menu
 #navMenu img{
   display: none;
+}
+.s-fn-title-item{
+  display: inline-block;
+  // margin: 0 auto;
+}
+
+.mod-simple-product {
+  display:block;
+  width:100%;
+}
+
+  .s-sp-image-container{
+    width:49%;
+    max-width:250px;
+    .s-sp-image{
+      width:100%;
+    }
+  }
+
+  .s-sp-content-wrapper{
+    // background-color:yellow;
+    width:50% !important;
+    max-width:250px;
+    min-height:100px;
+
+    // .s-sp-fixed-height-container .s-sp-content-title{
+    // font-size: 1.5em;
+    // line-height: 1.1em;
+    // }
+
+   .s-sp-content, .s-sp-add-to-cart{
+    font-size: 1.5em;
+    line-height: 0.9em;
+    }
+    .s-sp-content-title a{
+    font-size: 1.5em;
+    line-height: 0.9em;
+    }
+  }
+  #ctl00_PlaceHolderMain_Editmodepanel2_ProductsTasksList_CategoryAndSubCategorySelector{
+    width: 100%;
+  }
+  select{
+    display:block;
+    width:100%;
+    max-width: 90%;
+    height:40px;
+  }
+.s-sp-add-to-cart-button{
+  display: none;
+}
+.ext-mod-simple-product--simple-listing.fn-add-margin-left {
+margin-left:0;
 }
