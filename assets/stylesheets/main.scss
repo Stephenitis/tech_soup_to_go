@@ -32,20 +32,22 @@ body{
 }
 .s-fn-sub-menu-item li a{
   font-size: 4em;
-  line-height: 4em;
+  line-height: 2em;
   padding:10px;
   margin: 5px;
   background-color: #97679d;
   color: white;
+  float:left;
 }
 .s-fn-sub-menu-item li a:hover{
   font-size: 4em;
-  line-height: 4em;
+  line-height: 2em;
   padding:10px;
   margin: 5px;
   background-color: #cea9d3;
   color: white;
   box-shadow: 0px 0px 25px 5px rgba(255, 255, 190, .75);
+    float:left;
 }
 .mod-logo-techsoup{
   display:block;
@@ -56,8 +58,18 @@ body{
   // width: 300px;
   margin: 0 auto;
 }
-
+s-fn-item-link{
+  width:20%
+}
 .s-fn-item-link span {
-  font-size: 2em;
+  font-size: 3em;
+  line-height: 2em;
+  padding:10px;
   margin: 5px;
+  background-color: #61cc6c;
+  color: black;
+  float:left;
+}
+#navMenu img{
+  display: none;
 }
